@@ -91,5 +91,25 @@ This assignment code is released under the MIT license. Data Source Licenses:
 ![countries_top_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_top_10.png)
 ![countries_bot_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_bot_10.png)
 ![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_quality.png)
+
+|region |	proption: population / #of politician articles |
+|---|-----|
+|	AFRICA	| 3.792972 |
+|	LATIN AMERICA AND THE CARIBBEAN	|1.081425 |
+|	OCEANIA	| 0.035234 |
+|	ASIA	 | 23.732029 |
+|	EUROPE	|29.282314 |
+|	NORTHERN AMERICA |	0.510605 |
+
 ![regions_amount_articles.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_amount_articles.png)
+
+ |region |	total articles | high quality rated |total articles / high quality rated articles |
+|---|-----|-----|-----|
+|	AFRICA	                         | 6973.0 | 119.0 | 0.017066 |
+|	LATIN AMERICA AND THE CARIBBEAN	|5347.0 | 76.0 | 0.014214 |
+|	OCEANIA	                        | 3157.0 | 63.0| 0.019956 |
+|	ASIA	                           | 11885.0 | 316.0| 0.026588	 |
+|	EUROPE	                         |15994.0	 | 350.0 | 0.021883	 |
+|	NORTHERN AMERICA                |	1950.0	 | 104.0	 | 0.053333	 |
+
 ![regions_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_quality.png)
