@@ -43,7 +43,8 @@ categorize it to one of the following categories:
 <li> Stub - Stub-class article
  </ol>
  
- > Some of article revision ORES API is not able to classify and returns an error. This is mainly due to that the API cannot find the the revision.
+ > Some of article revision ORES API is not able to classify and returns an error. This is mainly due to that the API cannot find the the revision.For these articles 
+ the quality column contains the enrty *Revision not found*
  
  ### Files created
  ------------------------------------
@@ -57,8 +58,8 @@ categorize it to one of the following categories:
  in the file *countries-no_match.csv*. Articles which were considered in the analysis are listed in the file *politicians_by_country.csv*.
  
  <ul>
- <li>\data_clean\politicians_by_country.csv This file contains information about all articles where the 
- <li> \data_clean\countries-no_match.csv    This file lists all articles where 
+ <li>\data_clean\politicians_by_country.csv <t> This file contains information about all articles where the 
+ <li> \data_clean\countries-no_match.csv <t> This file lists all articles which were excluded for the analysis.
  </ul>
  
  <br>
@@ -69,7 +70,7 @@ categorize it to one of the following categories:
 |  country | str  | The country the article is referenced to  |
 |  rev_id | int64  |  The revision id of the article which is passed to the ORES API for retrieving the quality prediction |
 |  quality | str  | The predicted quality of the article  |
-|  population | float64  | Population of the country. *Partly in millions, partly in thousands*  |
+|  population | float64  | Population of the country. (*partly in millions/ partly in thousands*)  |
 |  region | str  | Region the the artile is referenced to  |
 
 License
@@ -85,8 +86,9 @@ This assignment code is released under the MIT license. Data Source Licenses:
  
  Results
  ------------------------------------------
-
-
-
-
-
+ 
+![countries_top_10.png](countries_top_10.png)
+![countries_bot_10.png](countries_bot_10.png)
+![countries_quality.png](countries_quality.png)
+![regions_amount_articles.png](regions_amount_articles.png)
+![regions_quality.png](regions_quality.png)
