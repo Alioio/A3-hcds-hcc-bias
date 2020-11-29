@@ -88,8 +88,19 @@ This assignment code is released under the MIT license. Data Source Licenses:
  Results
  ------------------------------------------
  
+ 
+ Started with showing the top 10 countries articles per population. Here the distortion caused by the missalignment of the units 
+ in which the population is represented in the population dataset is very significant.
+ 
 ![countries_top_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_top_10.png)
+
+Then continued with the bottom ten countries:
+
 ![countries_bot_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_bot_10.png)
+
+In the next step the propotion of total articles and articles rated with good quality is compared across countries. 
+For the top 10... 
+
 ![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_quality.png)
 
 |region |	proption: population / #of politician articles |
