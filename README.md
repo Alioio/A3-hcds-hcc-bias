@@ -1,4 +1,5 @@
-# A3-hcds-hcc-bias
+# Analysis of bias in Wikimedia politician data
+
  Name: Ali Bektaş <br>
  Date: 30 Nov 2020
  
