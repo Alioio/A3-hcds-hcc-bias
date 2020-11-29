@@ -87,8 +87,8 @@ This assignment code is released under the MIT license. Data Source Licenses:
  Results
  ------------------------------------------
  
-![countries_top_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/tree/main/data_clean/visualizations/countries_top_10.png)
-![countries_bot_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/tree/main/data_clean/visualizations/countries_bot_10.png)
-![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/tree/main/data_clean/visualizations/countries_quality.png)
-![regions_amount_articles.png](https://github.com/Alioio/A3-hcds-hcc-bias/tree/main/data_clean/visualizations/regions_amount_articles.png)
-![regions_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/tree/main/data_clean/visualizations/regions_quality.png)
+![countries_top_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_top_10.png)
+![countries_bot_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_bot_10.png)
+![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_quality.png)
+![regions_amount_articles.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_amount_articles.png)
+![regions_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_quality.png)
