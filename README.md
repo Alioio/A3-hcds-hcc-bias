@@ -25,7 +25,7 @@ Documentation for Jupyter Notebook can be found here: https://jupyter.org/docume
 The following Python packages were used and their documentation can be found here: 
 
 <ul>
- <li><a href="https://example.com">os</a></li>
+ <li><a href="https://docs.python.org/3/library/os.html">os</a></li>
  <li><a href="https://pandas.pydata.org/">pandas</a></li>
  <li><a href="https://numpy.org/doc/">numpy</a></li>
  <li><a href="https://altair-viz.github.io/">altair</a></li>
@@ -88,7 +88,6 @@ This assignment code is released under the MIT license. Data Source Licenses:
  Results
  ------------------------------------------
  
- 
  Started with showing the top 10 countries articles per population. Here the distortion caused by the missalignment of the units 
  in which the population is represented in the population dataset is very significant.
  
@@ -98,10 +97,20 @@ Then continued with the bottom ten countries:
 
 ![countries_bot_10.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_bot_10.png)
 
-In the next step the propotion of total articles and articles rated with good quality is compared across countries. 
-For the top 10... 
+In the next step the propotion of total articles and articles related with good quality is compared across countries. 
+For the top 10 countries a suprising result was that North Korea appears at the first rank in this list. This is due to low 
+number of atricles North Korea has in total about their politicians (*39 in total*) and suprisingly *8* of these articles show 
+a high quality.  
+The 10 lowest quality ranking contains countries which has a high number of articles but less articles in good quality like. 
+Except of Belgium and Switzerland and Portugal where Belgium is appearing with a ratio: *523 articles in total but only 1 high quality rated article* and Switzerland with: *401 articles in total and also only 1 high quality rated article* the the other countries in this list did not suprised me. These are countries where I assume they are not so well known by the majority of the wikipedia article authors and another reason
+could be that these countries are neither English speaking or known to have a great public education system.
 
 ![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_quality.png)
+
+By comparing regions it is again notable that the error cuased by differnt units in which the population is represented is causing a 
+significant distortion which makes the results of the following chart for example unreliable. Europe for example includes smaller countries 
+like *Malta* or Latin Amerika with *Bahamas* where their population is represented by thousends while for bigger countires like *USA* the population 
+is represented in millions. 
 
 |region |	proption: population / #of politician articles |
 |---|-----|
@@ -113,6 +122,8 @@ For the top 10...
 |	NORTHERN AMERICA |	0.510605 |
 
 ![regions_amount_articles.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_amount_articles.png)
+
+
 
  |region |	total articles | high quality rated |total articles / high quality rated articles |
 |---|-----|-----|-----|
