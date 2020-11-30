@@ -108,9 +108,8 @@ could be that these countries are neither English speaking or known to have a gr
 ![countries_quality.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/countries_quality.png)
 
 By comparing regions it is again notable that the error cuased by differnt units in which the population is represented is causing a 
-significant distortion which makes the results of the following chart for example unreliable. Europe for example includes smaller countries 
-like *Malta* or Latin Amerika with *Bahamas* where their population is represented by thousends while for bigger countires like *USA* the population 
-is represented in millions. 
+**significant distortion** which makes the results of the following chart for example **unreliable**. Europe for example includes smaller countries 
+like *Malta* or Latin Amerika with *Bahamas* where their population is represented by thousends while for bigger countires like the *USA* the population is represented in millions. 
 
 |region |	proption: population / #of politician articles |
 |---|-----|
@@ -122,7 +121,6 @@ is represented in millions.
 |	NORTHERN AMERICA |	0.510605 |
 
 ![regions_amount_articles.png](https://github.com/Alioio/A3-hcds-hcc-bias/blob/main/data_clean/visualizations/regions_amount_articles.png)
-
 
 
  |region |	total articles | high quality rated |total articles / high quality rated articles |
