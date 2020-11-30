@@ -19,7 +19,7 @@
  
 The environment dependencies can be installed via `pip install -r requirements.txt`. I recommend installing in a Conda environment running Python version 3.7.
 
-Documentation for Python can be found here: https://docs.python.org/3.7/
+Documentation for Python can be found here: https://docs.python.org/3.7/<br>
 Documentation for Jupyter Notebook can be found here: https://jupyter.org/documentation
 
 The following Python packages were used and their documentation can be found here: 
